@@ -40,11 +40,11 @@
       <ul>
         <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#education"><i class="bx bx-book-open"></i> <span>Education</span></a></li>
         <li><a href="#experience"><i class="bx bx-file-blank"></i> <span>Experience</span></a></li>
+        <li><a href="#skills"><i class="bx bx-chip"></i> <span>Skills</span></a></li>
+        <li><a href="#education"><i class="bx bx-book-open"></i> <span>Education</span></a></li>
         <li><a href="#publications"><i class="bx bx-book"></i> <span>Publications</span></a></li>
         <li><a href="#projects"><i class="bx bx-code-alt"></i> <span>Projects</span></a></li>
-        <li><a href="#skills"><i class="bx bx-chip"></i> <span>Skills</span></a></li>
         <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -60,7 +60,6 @@
       <div class="social-links">
         <a href="https://www.linkedin.com/in/drishtiramesh" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/drishtiramesh" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.instagram.com/drishti_megalmani/" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
     </div>
   </section>
@@ -74,21 +73,24 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <div class="row">
-            <div class="col-lg-4 text-center">
-              <img src="assets/img/Hey.jpg" class="about-photo" alt="Drishti Ramesh Megalmani">
-            </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-center">
+            <img src="assets/img/Hey.jpg" class="about-photo" alt="Drishti Ramesh Megalmani">
+          </div>
 
-            <div class="col-lg-8 pt-3 pt-lg-0 content">
-              <p style="text-align:justify">
-                Machine Learning Engineer with experience building production ML systems, research pipelines, and
-                data infrastructure across healthcare, logistics, and ML security. Currently at HiddenLayer, where
-                I work on scalable data lakes, multi-modal model evaluation, and end-to-end training pipelines.
-                Previously a Computational Research Engineer at UC San Diego and Data Science Intern at Flock Freight.
-                MS in Computer Science from UCSD; published research on hybrid CNN-LSTM networks for heart sound
-                classification. Outside of work — travel, art, dance, and the belief that life is either a daring
-                adventure or nothing at all.
-              </p>
+          <div class="col-lg-8 pt-3 pt-lg-0 content">
+            <p style="text-align:justify">
+              Machine Learning Engineer with experience building production ML systems, research pipelines, and
+              data infrastructure across healthcare, logistics, and ML security. Currently at HiddenLayer, where
+              I work on scalable data lakes, multi-modal model evaluation, and end-to-end training pipelines.
+              Previously a Computational Research Engineer at UC San Diego and Data Science Intern at Flock Freight.
+              MS in Computer Science from UCSD; published research on hybrid CNN-LSTM networks for heart sound
+              classification. Outside of work — travel, art, dance, and the belief that life is either a daring
+              adventure or nothing at all.
+            </p>
+            <div class="mt-4">
+              <a href="#" class="btn-cv">Download CV</a>
             </div>
           </div>
         </div>
@@ -96,18 +98,279 @@
       </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Experience Section ======= -->
+    <section id="experience" class="resume section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Experience</h2>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up">
+          <div class="resume-item-header">
+            <div>
+              <h4>Machine Learning Engineer</h4>
+              <p class="resume-company"><em>HiddenLayer</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>Jan 2024 – Present</h5>
+              <p class="resume-location">Remote, USA</p>
+            </div>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Terraform</span>
+            <span class="tech-tag">Metaflow</span>
+            <span class="tech-tag">Databricks</span>
+          </div>
+          <ul>
+            <li>Built and maintained a <strong>scalable Databricks data lake</strong> using medallion architecture</li>
+            <li>Led development of a <strong>multi-modal test model suite</strong> and an <strong>automated FP/FN reporting pipeline</strong> for ML product evaluation</li>
+            <li>Integrated <strong>OpenAI</strong> and <strong>Hugging Face</strong> APIs for language detection, translation, and annotation</li>
+            <li>Built <strong>end-to-end training and validation pipelines</strong> for model promotion</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="80">
+          <div class="resume-item-header">
+            <div>
+              <h4>Computational Research Engineer</h4>
+              <p class="resume-company"><em>University of California San Diego</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>Sept 2022 – Jan 2024</h5>
+              <p class="resume-location">San Diego, USA</p>
+            </div>
+          </div>
+          <p class="resume-lab"><em>Computational Neuroscience and Machine Learning Lab — Dr. Maxim Bazhenov</em></p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">PyTorch</span>
+          </div>
+          <ul>
+            <li>Developed a <strong>seq2seq network for sleep staging</strong> using EEG and respiration data</li>
+            <li>Experimented with feature extraction for <strong>sleep quadrant prediction</strong> and sleep interruptions</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="160">
+          <div class="resume-item-header">
+            <div>
+              <h4>Data Science Intern</h4>
+              <p class="resume-company"><em>Flock Freight</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>June 2022 – Sept 2022</h5>
+              <p class="resume-location">San Diego, USA</p>
+            </div>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">GCP</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">KServe</span>
+            <span class="tech-tag">Mode</span>
+          </div>
+          <ul>
+            <li>Redesigned the ML application stack from a monolith to a <strong>microservice-based architecture</strong></li>
+            <li>Developed a <strong>recommender system ensemble</strong> of latent factor models, improving <strong>AUROC by 19%</strong></li>
+            <li>Optimized a critical production ML model, improving efficiency by <strong>30%</strong>, restoring application stability</li>
+            <li>Refactored SQL queries to enable faster report generation, saving the team <strong>60 hours per month</strong></li>
+            <li>Authored automated <strong>CI/CD workflows</strong>, eliminating manual test, build, and deploy operations</li>
+            <li>Analysed package dependencies and fixed <strong>vulnerabilities in production applications</strong></li>
+          </ul>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="240">
+          <div class="resume-item-header">
+            <div>
+              <h4>Associate ML Engineer</h4>
+              <p class="resume-company"><em>AI Health Highway</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>Oct 2020 – July 2021</h5>
+              <p class="resume-location">Bengaluru, India</p>
+            </div>
+          </div>
+          <p class="resume-lab"><em>SPIRE Lab, Indian Institute of Science — Dr. Prasanta Ghosh</em></p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">Librosa</span>
+          </div>
+          <ul>
+            <li>Developed two <strong>hybrid CNN-LSTM networks</strong> for heart sound classification</li>
+            <li>Deployed models using <strong>Flask API</strong> on <strong>AWS EC2</strong> instances</li>
+            <li>Coordinated <strong>data collection and annotation</strong> with medical professionals</li>
+            <li>Implemented <strong>audio quality assessment</strong> tests and maintained visualization APIs</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="320">
+          <div class="resume-item-header">
+            <div>
+              <h4>Deep Learning Research Intern</h4>
+              <p class="resume-company"><em>Indian Institute of Science</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>May – Jul 2019 · Feb – Sep 2020</h5>
+              <p class="resume-location">Bengaluru, India</p>
+            </div>
+          </div>
+          <ul>
+            <li>Built an <strong>end-to-end full-diagnostic software tool</strong> that reduces per-patient screening time from <strong>4+ hours to 3 minutes</strong></li>
+            <li>Implemented the <strong>hierarchical classification pipeline</strong> consisting of <strong>8 models</strong> with an average accuracy of <strong>93.11%</strong></li>
+            <li>Implemented <strong>segmentation models</strong> for Fundus images</li>
+            <li>Developed models for detection and patch-wise classification of WCE images, boosting <strong>AUROC by 17.41% over SOTA</strong></li>
+            <li>Experimented on a novel <strong>hierarchical binary classification tree</strong> to perform multi-class abnormality classification stage-wise</li>
+          </ul>
+        </div>
+
+        <details class="earlier-experience">
+          <summary>Earlier experience (2017–2019)</summary>
+          <div class="earlier-experience-items">
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <div>
+                  <h4>Machine Learning Intern</h4>
+                  <p class="resume-company"><em>Vijna Labs Pvt Ltd</em></p>
+                </div>
+                <div class="resume-item-date">
+                  <h5>Sept 2018 – Feb 2019</h5>
+                  <p class="resume-location">Bengaluru, India</p>
+                </div>
+              </div>
+              <ul>
+                <li>Worked on <strong>real-time image processing</strong> projects including segmentation, imgaug, and object recognition</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <div>
+                  <h4>Investment Analyst Intern</h4>
+                  <p class="resume-company"><em>Venture Catalysts</em></p>
+                </div>
+                <div class="resume-item-date">
+                  <h5>July 2018 – Feb 2019</h5>
+                  <p class="resume-location">Bengaluru, India</p>
+                </div>
+              </div>
+              <ul>
+                <li>In charge of <strong>startup analysis, evaluation, and sector research</strong></li>
+                <li>Overlooked startup investments and events</li>
+                <li>Assisted in organizing <strong>monthly startup pitching events</strong></li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <div>
+                  <h4>Cyber Security Intern</h4>
+                  <p class="resume-company"><em>Spyry Technologies</em></p>
+                </div>
+                <div class="resume-item-date">
+                  <h5>Oct 2017</h5>
+                  <p class="resume-location">Bengaluru, India</p>
+                </div>
+              </div>
+              <ul>
+                <li>Worked on <strong>ethical hacking</strong> — footprinting, DOS, scanning, and securing systems against cyber attacks</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </section><!-- End Experience Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-group">
+          <h4>Languages</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Go</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h4>ML Stack</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Keras</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h4>Technologies &amp; Tools</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">GCP</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Databricks</span>
+            <span class="skill-tag">Snowflake</span>
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">Metaflow</span>
+            <span class="skill-tag">PySpark</span>
+            <span class="skill-tag">Hadoop</span>
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">KServe</span>
+            <span class="skill-tag">ArgoCD</span>
+            <span class="skill-tag">CircleCI</span>
+            <span class="skill-tag">Mode</span>
+            <span class="skill-tag">Jira</span>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
     <!-- ======= Education Section ======= -->
-    <section id="education" class="resume">
+    <section id="education" class="resume section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Education</h2>
         </div>
 
-        <div class="resume-item">
-          <h4>Master of Science in Computer Science and Engineering</h4>
-          <h5>March 2023</h5>
-          <p><em>University of California, San Diego · San Diego, CA</em></p>
+        <div class="resume-item" data-aos="fade-up">
+          <div class="resume-item-header">
+            <div>
+              <h4>Master of Science in Computer Science and Engineering</h4>
+              <p class="resume-company"><em>University of California, San Diego · San Diego, CA</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>March 2023</h5>
+            </div>
+          </div>
           <p>GPA: 3.88 / 4.00</p>
           <p>Roles &amp; responsibilities:</p>
           <ul>
@@ -116,10 +379,16 @@
           </ul>
         </div>
 
-        <div class="resume-item">
-          <h4>Bachelor of Engineering in Computer Science and Engineering</h4>
-          <h5>July 2020</h5>
-          <p><em>BMS Institute of Technology &amp; Management · Bengaluru, India</em></p>
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="120">
+          <div class="resume-item-header">
+            <div>
+              <h4>Bachelor of Engineering in Computer Science and Engineering</h4>
+              <p class="resume-company"><em>BMS Institute of Technology &amp; Management · Bengaluru, India</em></p>
+            </div>
+            <div class="resume-item-date">
+              <h5>July 2020</h5>
+            </div>
+          </div>
           <p>GPA: 8.94 / 10 · Scholarship for Academic Excellence</p>
           <p>Roles &amp; responsibilities:</p>
           <ul>
@@ -133,114 +402,6 @@
       </div>
     </section><!-- End Education Section -->
 
-    <!-- ======= Experience Section ======= -->
-    <section id="experience" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Experience</h2>
-        </div>
-
-        <div class="resume-item">
-          <h4>Machine Learning Engineer</h4>
-          <h5>Jan 2024 – Present</h5>
-          <p><em>HiddenLayer · Remote, USA</em></p>
-          <p><em>Python, TensorFlow, PyTorch, Terraform, AWS, Metaflow</em></p>
-          <ul>
-            <li>Built and maintained a scalable Databricks data lake using medallion architecture</li>
-            <li>Led development of a multi-modal test model suite and built an automated FP/FN reporting pipeline for ML product evaluation</li>
-            <li>Integrated OpenAI and Hugging Face APIs for language detection, translation, and annotation</li>
-            <li>Built end-to-end training and validation pipelines for model promotion</li>
-          </ul>
-        </div>
-
-        <div class="resume-item">
-          <h4>Computational Research Engineer</h4>
-          <h5>Sept 2022 – Jan 2024</h5>
-          <p><em>University of California San Diego · San Diego, USA</em></p>
-          <p><em>Computational Neuroscience and Machine Learning Lab — Dr. Maxim Bazhenov</em></p>
-          <p><em>Python, TensorFlow, PyTorch</em></p>
-          <ul>
-            <li>Developed a seq2seq network for sleep staging using EEG and respiration data</li>
-            <li>Experimented with feature extraction for sleep quadrant prediction and sleep interruptions</li>
-          </ul>
-        </div>
-
-        <div class="resume-item">
-          <h4>Data Science Intern</h4>
-          <h5>June 2022 – Sept 2022</h5>
-          <p><em>Flock Freight · San Diego, USA</em></p>
-          <p><em>GCP, Python, SQL, Scikit-learn, Docker, KServe, Mode</em></p>
-          <ul>
-            <li>Redesigned the ML application stack from a monolith to a microservice-based architecture</li>
-            <li>Developed a recommender system ensemble of latent factor models, improving AUROC by 19%</li>
-            <li>Optimized a production ML model, improving efficiency by 30%</li>
-            <li>Refactored SQL queries, saving 60 hours of work per month</li>
-            <li>Authored automated CI/CD workflows and fixed package dependency vulnerabilities in production</li>
-          </ul>
-        </div>
-
-        <div class="resume-item">
-          <h4>Associate ML Engineer</h4>
-          <h5>Oct 2020 – July 2021</h5>
-          <p><em>AI Health Highway · Bengaluru, India</em></p>
-          <p><em>SPIRE Lab, Indian Institute of Science — Dr. Prasanta Ghosh</em></p>
-          <p><em>AWS, Python, TensorFlow, Flask, Librosa</em></p>
-          <ul>
-            <li>Developed two hybrid CNN-LSTM networks for heart sound classification</li>
-            <li>Deployed models using Flask API on AWS EC2 instances</li>
-            <li>Coordinated data collection and annotation with medical professionals</li>
-            <li>Implemented audio quality assessment tests and maintained visualization APIs</li>
-          </ul>
-        </div>
-
-        <div class="resume-item">
-          <h4>Deep Learning Research Intern</h4>
-          <h5>Feb 2020 – Sept 2020</h5>
-          <p><em>Indian Institute of Science · Bengaluru, India</em></p>
-          <ul>
-            <li>Built an end-to-end pipeline for a diagnostic Wireless Capsule Endoscopy tool</li>
-            <li>Implemented hierarchical classification with 8 models averaging 93.11% accuracy</li>
-            <li>Worked on augmentation techniques to overcome shortage of annotated data</li>
-          </ul>
-        </div>
-
-        <details class="earlier-experience">
-          <summary>Earlier experience (2018–2019)</summary>
-          <div class="earlier-experience-items">
-            <div class="resume-item">
-              <h4>Deep Learning Research Intern</h4>
-              <h5>May 2019 – July 2019</h5>
-              <p><em>Indian Institute of Science · Bengaluru, India</em></p>
-              <ul>
-                <li>Worked on detection and classification of WCE images, boosting AUROC by 17.41% over SOTA</li>
-                <li>Experimented with a novel hierarchical binary classification tree to classify abnormalities stage-wise</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Machine Learning Intern</h4>
-              <h5>Sept 2018 – Feb 2019</h5>
-              <p><em>Vijna Labs Pvt Ltd · Bengaluru, India</em></p>
-              <ul>
-                <li>Worked on real-time image processing projects including segmentation, imgaug, and object recognition</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Investment Analyst Intern</h4>
-              <h5>July 2018 – Feb 2019</h5>
-              <p><em>Venture Catalysts · Bengaluru, India</em></p>
-              <ul>
-                <li>Worked on startup analysis, sector research, and handled startup investments and events</li>
-              </ul>
-            </div>
-          </div>
-        </details>
-
-      </div>
-    </section><!-- End Experience Section -->
-
     <!-- ======= Publications Section ======= -->
     <section id="publications" class="resume">
       <div class="container" data-aos="fade-up">
@@ -249,7 +410,7 @@
           <h2>Publications</h2>
         </div>
 
-        <div class="publication-entry resume-item">
+        <div class="publication-entry resume-item" data-aos="fade-up">
           <h4 class="publication-title">
             <a href="https://doi.org/10.1109/embc46164.2021.9629596" target="_blank" rel="noopener noreferrer">
               Unsegmented Heart Sound Classification Using Hybrid CNN-LSTM Neural Networks
@@ -268,7 +429,7 @@
           </p>
         </div>
 
-        <div class="publication-entry resume-item">
+        <div class="publication-entry resume-item" data-aos="fade-up" data-aos-delay="120">
           <h4 class="publication-title">
             <a href="https://doi.org/10.1109/embc46164.2021.9629556" target="_blank" rel="noopener noreferrer">
               Noise Robust Detection of Fundamental Heart Sound using Parametric Mixture Gaussian and Dynamic Programming
@@ -291,61 +452,49 @@
     </section><!-- End Publications Section -->
 
     <!-- ======= Projects Section ======= -->
-    <section id="projects" class="resume">
+    <section id="projects" class="resume section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Projects</h2>
         </div>
 
-        <div class="resume-item">
-          <h4>Neural Conditional Random Fields for Named Entity Recognition</h4>
-          <h5>2022</h5>
-          <p><em>Python, NLP</em></p>
-          <ul>
-            <li>Built a Neural CRF BiLSTM model for NER</li>
-            <li>Implemented the forward algorithm for learning and the Viterbi algorithm for decoding</li>
-          </ul>
-        </div>
+        <div class="resume-items-grid">
+          <div class="resume-item" data-aos="fade-up">
+            <div class="resume-item-header">
+              <div>
+                <h4>Neural CRF for Named Entity Recognition</h4>
+                <p class="resume-company"><em>Python · NLP</em></p>
+              </div>
+              <div class="resume-item-date">
+                <h5>2022</h5>
+              </div>
+            </div>
+            <ul>
+              <li>Built a Neural CRF BiLSTM model for NER</li>
+              <li>Implemented the forward algorithm for learning and the Viterbi algorithm for decoding</li>
+            </ul>
+          </div>
 
-        <div class="resume-item">
-          <h4>Visual-Inertial SLAM</h4>
-          <h5>2022</h5>
-          <p><em>Python, NumPy, ROS</em></p>
-          <ul>
-            <li>Implemented SLAM using an extended Kalman filter with IMU and stereo camera measurements</li>
-            <li>Built for an MBot Mega robot with Qualcomm RB5</li>
-          </ul>
+          <div class="resume-item" data-aos="fade-up" data-aos-delay="120">
+            <div class="resume-item-header">
+              <div>
+                <h4>Visual-Inertial SLAM</h4>
+                <p class="resume-company"><em>Python · NumPy · ROS</em></p>
+              </div>
+              <div class="resume-item-date">
+                <h5>2022</h5>
+              </div>
+            </div>
+            <ul>
+              <li>Implemented SLAM using an extended Kalman filter with IMU and stereo camera measurements</li>
+              <li>Built for an MBot Mega robot with Qualcomm RB5</li>
+            </ul>
+          </div>
         </div>
 
       </div>
     </section><!-- End Projects Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-        </div>
-
-        <div class="resume-item">
-          <h4>Languages</h4>
-          <p>Python, SQL, Go, Java, C, C++, HTML, JavaScript</p>
-        </div>
-
-        <div class="resume-item">
-          <h4>ML Stack</h4>
-          <p>Deep Learning, NLP, PyTorch, TensorFlow, NumPy, Pandas, Matplotlib, Keras</p>
-        </div>
-
-        <div class="resume-item">
-          <h4>Technologies &amp; Tools</h4>
-          <p>AWS, GCP, Docker, Git, Tableau, PySpark, Hadoop, Snowflake, KServe, ArgoCD, CircleCI, Mode, Jira, Terraform, Metaflow, Databricks</p>
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -401,8 +550,8 @@
       <div class="social-links">
         <a href="https://www.linkedin.com/in/drishtiramesh" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/drishtiramesh" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.instagram.com/drishti_megalmani/" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
+      <p class="footer-copyright">&copy; 2026 Drishti Ramesh Megalmani</p>
     </div>
   </footer><!-- End Footer -->
 
